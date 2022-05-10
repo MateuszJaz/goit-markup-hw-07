@@ -1,0 +1,41 @@
+.header {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--header-line);
+
+  &__container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 93px;
+  }
+
+  &__phone,
+  &__email {
+    display: flex;
+    align-items: center;
+    fill: var(--fourth-color);
+    color: var(--fourth-color);
+  }
+
+  &__email {
+    margin-left: auto;
+  }
+
+  &__phone {
+    margin-left: 30px;
+  }
+
+  &__email-icon,
+  &__phone-icon {
+    margin-right: 10px;
+  }
+}

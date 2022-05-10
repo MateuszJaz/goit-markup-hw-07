@@ -1,0 +1,25 @@
+.footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: var(--header-bg-color);
+
+  &__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+  }
+
+  &__center-column,
+  &__right-column {
+    padding-top: 12px;
+    margin-left: 70px;
+  }
+
+  &__right-column h4,
+  &__center-column h4 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--third-color);
+  }
+}

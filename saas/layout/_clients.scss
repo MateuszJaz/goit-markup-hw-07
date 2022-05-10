@@ -1,0 +1,27 @@
+.clients {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+
+    &:focus-visible,
+    &:hover {
+      outline: none;
+      fill: var(--brand-color);
+      border-color: var(--brand-color);
+    }
+  }
+}
